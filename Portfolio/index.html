@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/skills.html">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/blogs.html">Blogs</a></li> <!-- Added Blogs option -->
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section text-center py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Image Section (40%) -->
+            <div class="col-md-5">
+                <img src="https://media.istockphoto.com/id/1207405108/vector/pet-friendly-office-young-male-character-working-with-a-dog-on-their-lap.jpg?s=612x612&w=0&k=20&c=6QtWEsEn1IxuuI9Tjpxg5pXtA9Uvm0xi758AeY7xCzc=" alt="Rishi Singh" class="img-fluid rounded-circle">
+            </div>
+
+            <!-- Content Section (60%) -->
+            <div class="col-md-7">
+                <h1>Hi all, I'm Rishi Singh<span class="wave">👋</span></h1>
+                <p class="lead">I’m currently pursuing my BCA (2nd year), specializing in Data Science and Artificial Intelligence. I'm passionate about web development and machine learning, constantly exploring new technologies to enhance my skills and knowledge.</p>
+                <div class="social-icons mb-3">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rishi-singh-568138308/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-gitlab"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn btn-success">Contact Me</a>
+                    <a href="#" class="btn btn-secondary">See My Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="about-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Text Section (60%) -->
+            <div class="col-md-7">
+                <h2>About Me</h2>
+                <p>I am a BCA student currently in my 2nd year, with a keen interest in Data Science, Artificial Intelligence, and Web Development. My journey in software development is driven by a desire to create impactful solutions and learn new tools and technologies.</p>
+            </div>
+
+            <!-- Image Section (40%) -->
+            <div class="col-md-5 text-center">
+                <img src="https://media.istockphoto.com/id/1321043794/vector/man-is-working-at-the-desktop-with-a-laptop-freelance-online-education-web-surfing-or-office.jpg?s=612x612&w=0&k=20&c=5DUX9Kvc9Qy38AamkdhP-8JNL5XFNW7MGHQvhCnYv7I=" alt="About Me Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Skills</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="skill-box p-4 rounded shadow-sm">
+                    <div class="skill-icon mb-3">
+                        <i class="fas fa-code fa-3x"></i>
+                    </div>
+                    <h4>Frontend Development</h4>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill-box p-4 rounded shadow-sm">
+                    <div class="skill-icon mb-3">
+                        <i class="fas fa-server fa-3x"></i>
+                    </div>
+                    <h4>Backend Development</h4>
+                    <p>PHP, MySQL</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill-box p-4 rounded shadow-sm">
+                    <div class="skill-icon mb-3">
+                        <i class="fas fa-laptop-code fa-3x"></i>
+                    </div>
+                    <h4>Programming Languages</h4>
+                    <p>Python, Java, C</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section py-5">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.reliancedigital.in/wp-content/uploads/2019/02/netflix_movies_cover.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Movie Recommendation System</h5>
+                        <p class="card-text">Built a recommendation engine using collaborative filtering techniques and machine learning algorithms to suggest movies based on user preferences.</p>
+                        <a href="http://127.0.0.1:5500/projects/movie_recommed.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*nwwkyz1wpaRZgAgBg3h41Q.jpeg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Diabetes Detection System</h5>
+                        <p class="card-text">Developed a predictive system using machine learning models to identify individuals at risk for diabetes based on medical data and patient history.</p>
+                        <a href="http://127.0.0.1:5500/projects/diabetes.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://miro.medium.com/v2/resize:fit:1200/1*ftnM93QhlS0A7I55QegbrA.jpeg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Car Price Prediction System</h5>
+                        <p class="card-text">Created a model that predicts car prices based on various factors like model, mileage, year, and brand using regression analysis.</p>
+                        <a href="http://127.0.0.1:5500/projects/car_price.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- certification Section -->
+<section id="projects" class="projects-section py-5">
+    <div class="container">
+        <h2>Certifications</h2>
+        <p>Here are some of my certifications that demonstrate my skills and expertise.</p>
+        <div class="row">
+            <!-- Certification 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E2DAQH8osf4jXPnSQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719999949751?e=1726142400&v=beta&t=tvFNaQ-w7YSUFYxf_J7MPVvxhW8wR2nFkxbJ5OIzHV0" class="card-img-top" alt="Software Exhibition Certificate">
+                    <div class="card-body">
+                        <h5 class="card-title">Software Exhibition Certificate</h5>
+                        <p class="card-text">Awarded for presenting an innovative software solution at Babu Banarsi Das University software exhibition, demonstrating advanced web development skills.</p>
+                        <!-- View Certificate Button -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#certificate1Modal">View Certificate</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certification 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E2DAQHPdnPg3V3zMw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1723697362482?e=1726142400&v=beta&t=JJeQ_UUHorrQQts9xP6J7nKDwvk-B6GWj3LbBzbp63g" class="card-img-top" alt="Power BI Certificate">
+                    <div class="card-body">
+                        <h5 class="card-title">Power BI Certificate</h5>
+                        <p class="card-text">Completed a beginner course on Power BI, covering data visualization, business intelligence, and dashboard creation for analytics.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#certificate2Modal">View Certificate</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certification 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E2DAQFuLlv5FZuHFQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1723982970193?e=1726142400&v=beta&t=Fpv1pUtJ-S5WPRu-50d_iNy-wrRWtLK_3sp8IcCBThE" class="card-img-top" alt="Introduction to Big Data Certificate">
+                    <div class="card-body">
+                        <h5 class="card-title">Introduction to Big Data Certificate</h5>
+                        <p class="card-text">Gained fundamental knowledge of big data concepts, Hadoop, and the importance of data management in modern tech ecosystems.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#certificate3Modal">View Certificate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="certificate1Modal" tabindex="-1" aria-labelledby="certificate1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="certificate1ModalLabel">Software Exhibition Certificate</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E2DAQH8osf4jXPnSQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1719999949751?e=1726142400&v=beta&t=tvFNaQ-w7YSUFYxf_J7MPVvxhW8wR2nFkxbJ5OIzHV0" class="img-fluid" alt="Software Exhibition Certificate">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="certificate2Modal" tabindex="-1" aria-labelledby="certificate2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="certificate2ModalLabel">Power BI Certificate</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E2DAQHPdnPg3V3zMw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1723697362482?e=1726142400&v=beta&t=JJeQ_UUHorrQQts9xP6J7nKDwvk-B6GWj3LbBzbp63g" class="img-fluid" alt="Power BI Certificate">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="certificate3Modal" tabindex="-1" aria-labelledby="certificate3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="certificate3ModalLabel">Introduction to Big Data Certificate</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E2DAQFuLlv5FZuHFQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1723982970193?e=1726142400&v=beta&t=Fpv1pUtJ-S5WPRu-50d_iNy-wrRWtLK_3sp8IcCBThE" class="img-fluid" alt="Introduction to Big Data Certificate">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section py-5 bg-light">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form action="/php files/send_email.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-3">
+    <p>&copy; 2024 Rishi Singh. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS and dependencies (jQuery and Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

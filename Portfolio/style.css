@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding-top: 70px; /* To avoid navbar overlap */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #343a40;
+}
+
+p {
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #e9ecef;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff !important;
+}
+
+.nav-link {
+    color: #343a40 !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #007bff, #6c63ff);
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-section .lead {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.social-icons .social-icon {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons .social-icon:hover {
+    color: #007bff;
+}
+
+.hero-buttons .btn {
+    margin: 10px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+}
+
+/* Section Styles */
+.about-section, .skills-section, .projects-section, .blogs-section, .contact-section {
+    padding: 60px 0;
+}
+
+.about-section h2, .skills-section h2, .projects-section h2, .blogs-section h2, .contact-section h2 {
+    margin-bottom: 40px;
+}
+
+.about-section p, .skills-section p, .blogs-section p {
+    font-size: 1.1rem;
+}
+
+.skills-section .row div {
+    margin-bottom: 30px;
+}
+
+.projects-section .card {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.projects-section .card:hover {
+    transform: translateY(-10px);
+}
+
+.projects-section .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.contact-section .form-control {
+    border-radius: 0;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.contact-section .btn {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section .lead {
+        font-size: 1rem;
+    }
+
+    .hero-buttons .btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}

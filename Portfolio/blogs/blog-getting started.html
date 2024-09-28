@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started with Web Development</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/skills.html">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/blogs.html">Blogs</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Blog Post Section -->
+<section class="blog-post py-5">
+    <div class="container">
+        <h1 class="mb-4">Getting Started with Web Development</h1>
+        
+        <!-- Image Banner -->
+        <img src="https://www.syncfusion.com/blogs/wp-content/uploads/2020/07/Top-6-Front-End-Web-Development-Tools-to-Increase-Your-Productivity-in-2020-1.jpg" alt="Web Development Banner" class="img-fluid mb-4" height="600px" width="800px">
+
+        <h2>Introduction</h2>
+        <p>Web development combines creativity with technical skills to build engaging websites and applications. Whether you're aiming to create a personal blog or a complex web app, this guide will help you get started with the essential tools and technologies.</p>
+
+        <h2>Core Technologies</h2>
+        
+        <!-- Images for Technologies -->
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="https://cdn.prod.website-files.com/5d4955a615f2c1cba8fdc3f9/623dda7e41299b3cacaacc16_HTML_Blog-scaled-p-1600.jpeg" alt="HTML Icon" class="img-fluid mb-2">
+                <h3>HTML (HyperText Markup Language)</h3>
+                <p><strong>Purpose:</strong> Provides the structure of your web pages.</p>
+                <pre><code>&lt;h1&gt;Welcome to My Webpage&lt;/h1&gt;
+&lt;p&gt;This is a brief introduction.&lt;/p&gt;</code></pre>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="https://x-team.com/hs-fs/hubfs/Imported_Blog_Media/CSS-Code-2.jpg?width=2180&height=980&name=CSS-Code-2.jpg" alt="CSS Icon" class="img-fluid mb-2">
+                <h3>CSS (Cascading Style Sheets)</h3>
+                <p><strong>Purpose:</strong> Styles and layouts your web content.</p>
+                <pre><code>body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}</code></pre>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdm_cokvlB9twX-bSPsCk9bngeBzP0kgHaQA&s" alt="JavaScript Icon" class="img-fluid mb-2">
+                <h3>JavaScript</h3>
+                <p><strong>Purpose:</strong> Adds interactivity and dynamic features to your site.</p>
+                <pre><code>document.getElementById('clickMe').addEventListener('click', function() {
+    alert('Button Clicked!');
+});</code></pre>
+            </div>
+        </div>
+
+        <h2>Setting Up Your Development Environment</h2>
+        <ul>
+            <li><strong>Text Editor:</strong> Visual Studio Code, Sublime Text.</li>
+            <li><strong>Web Browser:</strong> Chrome, Firefox.</li>
+            <li><strong>Version Control:</strong> Git and GitHub for code management.</li>
+        </ul>
+
+        <h2>Building Your First Web Page</h2>
+        <ol>
+            <li>Create an HTML file for structure.</li>
+            <li>Add CSS for styling.</li>
+            <li>Incorporate JavaScript for interactive elements.</li>
+        </ol>
+
+        <!-- Example Project Image -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkSBBPgOpOfIPfw16cJ1_TWXa9t1_gp2SADA&s" alt="Project Structure" class="img-fluid mb-4">
+
+        <p><strong>Example Project Structure:</strong></p>
+        <pre><code>/my-first-webpage
+    |-- index.html
+    |-- styles.css
+    |-- script.js</code></pre>
+
+        <h2>Learning Resources</h2>
+        <ul>
+            <li><strong>Courses:</strong> freeCodeCamp, Codecademy.</li>
+            <li><strong>Documentation:</strong> Official HTML, CSS, and JavaScript docs.</li>
+            <li><strong>Practice:</strong> Build small projects to refine your skills.</li>
+        </ul>
+
+        <h2>Conclusion</h2>
+        <p>Embark on your web development journey by mastering HTML, CSS, and JavaScript. With practice and persistence, you'll develop the skills needed to create professional and engaging web applications. Happy coding!</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-3">
+    <p>&copy; 2024 Rishi Singh. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
