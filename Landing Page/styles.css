@@ -1,0 +1,115 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+/* Navbar */
+.navbar {
+    transition: background-color 0.3s;
+}
+
+/* Section Titles */
+h2 {
+    color: #007bff; /* Blue */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border: 2px solid #007bff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 0;
+    background: #ffffff;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 40px;
+}
+
+.testimonial-item {
+    margin-bottom: 30px;
+}
+
+.testimonial-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.cta {
+    padding: 50px 0;
+    background: #e8dfe0;
+    text-align: center;
+    color: white;
+}
+
+.cta h2 {
+    margin-bottom: 20px;
+}
+/* Footer */
+footer {
+    background-color: #343a40; /* Dark background */
+}
+
+/* Pricing Card */
+.card-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745; /* Green */
+}
+.hero {
+    position: relative;
+    height: 100vh; /* Make the hero section full height */
+    background-color: rgba(139, 144, 149, 0.166); /* Slightly transparent darker background */
+    color: rgb(11, 10, 10);
+}
